@@ -112,7 +112,7 @@ h5 {
     color: #fff;
 }
 .navbar-default {
-    background-color: #222;
+    background-color: rgba(2, 2, 2, 0.7);
     border-color: transparent;
 }
 .navbar-default .navbar-brand {
@@ -127,14 +127,14 @@ h5 {
     border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-default .navbar-toggle {
-    background-color: #f1c40f;
-    border-color: #f1c40f;
+    border-color: transparent;
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #f1c40f;
+    background-color: transparent;
+    color: #f1c40f;
 }
 .navbar-default .nav li a {
     color: #fff;
@@ -153,8 +153,8 @@ h5 {
     color: #f1c40f;
 }
 .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    background-color: #fec503;
-    color: #fff;
+    background-color: transparent;
+    color: #f1c40f;
 }
 .line {
     background: #fff -moz-linear-gradient(left center , #f1c633, #fff, #f1c633) repeat scroll 0 0;
@@ -181,7 +181,7 @@ h5 {
     border-radius: 3px;
 }
 .navbar-default.navbar-shrink {
-    background-color: #222;
+    background-color: rgba(2, 2, 2, 0.7);
     padding: 10px 0;
 }
 .navbar-default.navbar-shrink .navbar-brand {
